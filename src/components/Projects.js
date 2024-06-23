@@ -41,7 +41,7 @@ export default function Projects(){
               {projectData.map((item,index)=>{
                 return(
                   <div key={index}>
-                <div className="relative group overflow-hidden rounded-lg shadow shadow-slate-200 dark:shadow-gray-800" style={{ minHeight: '250px', border: '2px solid blue' }}>
+                <div className="relative group overflow-hidden rounded-lg shadow shadow-slate-200 dark:shadow-gray-800" style={{ minHeight: '250px',  }}>
                     <img src={item.image} alt=""/>
                     <div className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-b to-slate-900 from-transparent transition-all duration-500"></div>
                     <div className="absolute bottom-0 opacity-0 group-hover:opacity-100 m-6 transition-all duration-500">
