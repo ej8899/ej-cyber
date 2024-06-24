@@ -35,7 +35,7 @@ export default function AboutUs(){
                             <p className="text-slate-400 max-w-xl text-[15px] mt-6">Although my focus is on identifying, analyzing, and mitigating security risks in applications to safeguard data and maintain user trust, I am eager to contribute my skills to dynamic and innovative teams through all aspects of cybersecurity.</p>
                         
                             <div className="mt-6">
-                                <Link1 to="project" className="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md me-2 mt-2">See Work</Link1>
+                                <Link1 to="project" className="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md me-2 mt-2 cursor-pointer">See Work</Link1>
                             </div>
                         </div>
                     </div>

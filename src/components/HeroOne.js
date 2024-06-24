@@ -32,7 +32,7 @@ export default function HeroOne(){
                         <p className="text-slate-400 max-w-xl">Obviously I'm a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p>
                     
                         <div className="mt-6">
-                        <Link1 to="contact" activeClass="active" spy={true} smooth={true} duration={500} className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md">Let's Talk</Link1>
+                        <Link1 to="contact" activeClass="active" spy={true} smooth={true} duration={500} className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md cursor-pointer">Let's Talk</Link1>
                             
                             <Link to="" className="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md ms-1">Download CV</Link>
                         </div>
@@ -60,7 +60,7 @@ export default function HeroOne(){
         </section>
         <div className="relative">
             <div className="absolute block w-full h-auto bottom-[25px] z-1 left-0">
-                <Link1 to="about"><i className="mdi mdi-arrow-down absolute top-0 left-0 right-0 text-center inline-flex items-center justify-center rounded-full bg-white dark:bg-slate-900 h-12 w-12 mx-auto shadow-md dark:shadow-gray-800"></i></Link1>
+                <Link1 to="about"><i className="mdi mdi-arrow-down absolute top-0 left-0 right-0 text-center inline-flex items-center justify-center rounded-full bg-white dark:bg-slate-900 h-12 w-12 mx-auto shadow-md dark:shadow-gray-800 cursor-pointer"></i></Link1>
             </div>
         </div>
         </>
