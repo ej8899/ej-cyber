@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Link as Link1 } from 'react-scroll';
 import * as Unicons from "@iconscout/react-unicons"; // https://iconscout.com/unicons/free-line-icon-fonts/link
+import {twitterLink,linkedinLink,githubLink,emailLink, youtubeLink, instaLink} from "../Data/data"
 
 export default function Navbar(){
     window.addEventListener("scroll", windowScroll);
@@ -44,22 +45,22 @@ export default function Navbar(){
                 {/* <!-- Navbar Button --> */}
                 <ul className="list-none menu-social mb-0">
                     <li className="inline-flex">
-                        <Link to="" className="ms-1">
+                        <Link to={linkedinLink} className="ms-1">
                             <span className="login-btn-primary"><span className="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white"><Unicons.UilLinkedin width={16}/></span></span>
                             <span className="login-btn-light"><span className="btn btn-icon btn-sm rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><Unicons.UilLinkedin width={16}/></span></span>
                         </Link>
 
-                        <Link to="" className="ms-1">
+                        <Link to={githubLink} className="ms-1">
                             <span className="login-btn-primary"><span className="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white"><Unicons.UilGithub width={16}/></span></span>
                             <span className="login-btn-light"><span className="btn btn-icon btn-sm rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><Unicons.UilGithub width={16}/></span></span>
                         </Link>
 
-                        <Link to="" className="ms-1">
+                        <Link to={youtubeLink} className="ms-1">
                             <span className="login-btn-primary "><span className="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white"><Unicons.UilYoutube width={16}/></span></span>
                             <span className="login-btn-light "><span className="btn btn-icon btn-sm rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><Unicons.UilYoutube width={16}/></span></span>
                         </Link>
-                        
-                        <Link to="" className="ms-1">
+
+                        <Link to={instaLink} className="ms-1">
                             <span className="login-btn-primary"><span className="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white"><Unicons.UilInstagram width={16}/></span></span>
                             <span className="login-btn-light"><span className="btn btn-icon btn-sm rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><Unicons.UilInstagram width={16}/></span></span>
                         </Link>
@@ -90,9 +91,9 @@ export default function Navbar(){
                     <li className="nav-item">
                         <Link1 to="project" activeClass="active" spy={true} smooth={true} duration={500} className="nav-link">Projects</Link1>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <Link1 to="blog" activeClass="active" spy={true} smooth={true} duration={500} className="nav-link">Blogs</Link1>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
                         <Link1 to="contact" activeClass="active" spy={true} smooth={true} duration={500} className="nav-link">Contact Me</Link1>
                     </li>

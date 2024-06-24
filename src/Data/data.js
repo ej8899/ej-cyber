@@ -7,6 +7,10 @@ export const githubLink = 'https://github.com/ej8899';
 export const emailLink = 'mailto:ernie@erniejohnson.ca';
 export const twitterLink = 'https://twitter.com/erniejohnsonca';
 
+// TODO update these links:
+export const instaLink = 'https://twitter.com/erniejohnsonca';
+export const youtubeLink = 'https://twitter.com/erniejohnsonca';
+
 export const expertiseData = [
     {
         title:'Developing',
