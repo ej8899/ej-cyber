@@ -44,3 +44,24 @@
   font-size: 22px;
   border: 2px solid;
 }
+
+
+.custom-shape-divider-top-1719194531 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1719194531 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 127px;
+}
+
+.custom-shape-divider-top-1719194531 .shape-fill {
+  fill: red;
+}
